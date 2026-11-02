@@ -1,39 +1,33 @@
-PAST POLITICS — 30 SEC STICKMAN CLOUD TEST
+PAST POLITICS — MOSSAD 1-MINUTE ANIMATED EXPLAINER
 
-IMPORTANT:
-- Claude Free plan does NOT include Claude Code. Remotion's official Claude plugin is a Claude Code plugin.
-- This project does NOT require Claude to render.
-- GitHub Actions can render this project on a cloud runner when run from a PUBLIC GitHub repository. Public repository code is visible to everyone. Do not upload private/personal files or API keys.
-- GitHub cloud rendering is not guaranteed unlimited for every use case. Check your account's current Actions limits before relying on it.
-- This package is a visual prototype: it has no voice MP3 and does not claim to be a fully researched Mossad documentary.
+यह नया संस्करण पुराने 30-sec स्लाइड टेस्ट का replacement है।
+इसमें 6 animated scenes, moving stick figures, abstract intelligence map graphics,
+camera push-in, English narration generation और 60-second timeline है।
 
-STEP 1 — LAPTOP
-1. Extract this ZIP.
-2. Open github.com and sign in/create a free account.
-3. Create a NEW PUBLIC repository named past-politics-test.
-4. Upload all files from this extracted folder. Make sure the .github folder is included.
-5. Open the repository on GitHub.
+IMPORTANT HONEST NOTES
+- This is an original stick-figure history explainer inspired by the broad explainer genre, not a copy of any channel.
+- The map is an abstract visual, not a historically precise operational map.
+- Voice is generated in GitHub Actions using edge-tts / Microsoft online neural TTS. It needs internet access during the workflow.
+- GitHub Actions usage is subject to GitHub's current plan and usage limits. Do not enable paid billing.
+- This is a visual first draft. Fact-check and improve the script before publishing.
 
-STEP 2 — CLOUD RENDER
-1. Open the repository's Actions tab.
-2. If GitHub asks to enable workflows, click the enable/allow button.
-3. Select "Render video in GitHub cloud" on the left.
-4. Click "Run workflow", then the green Run workflow button.
-5. Wait until the run shows a green check mark.
-6. Open that completed run. At the bottom, find Artifacts and download mossad-30s-video.
-7. Extract the downloaded artifact ZIP. The MP4 will be inside.
+HOW TO UPDATE YOUR EXISTING GITHUB REPOSITORY
+1. Extract this ZIP on your laptop.
+2. Open your GitHub repository: past-politics-test.
+3. Click Add file > Upload files.
+4. Open this extracted folder and upload all its CONTENTS, including:
+   - .github/workflows/cloud-render.yml
+   - src folder
+   - scripts folder
+   - package.json
+   - tsconfig.json
+   - README_HINDI.txt
+5. If GitHub asks whether to replace existing files, confirm by committing changes.
+6. Go to Actions.
+7. Select "Render one-minute animated history video".
+8. Click Run workflow.
+9. Wait for green Success.
+10. Open the completed run, scroll to Artifacts, click mossad-one-minute-video to download the ZIP.
+11. Extract it; the MP4 is mossad-one-minute.mp4.
 
-IF SOMETHING FAILS
-- Do not repeatedly click Run.
-- Open the failed run and send me a screenshot of the red error.
-- Never enter card details or enable paid billing for this test.
-
-OPTIONAL LOCAL PREVIEW
-If Node.js 20 is installed:
-  npm install
-  npm run dev
-Local render command:
-  npm run render
-
-NEXT:
-After this 30-sec test works, we can build the narration, sound design, reusable scene system, then 8–10 minute episodes. Do not jump to 40 minutes yet.
+Do not run the old workflow named "Render video in GitHub cloud"; use the new one-minute workflow.

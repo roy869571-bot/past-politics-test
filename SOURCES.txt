@@ -1,7 +1,6 @@
-Research starting points:
-1. Mossad official About page: https://www.mossad.gov.il/en/about
-2. Mossad official History page: https://www.mossad.gov.il/en/history
-3. Remotion Claude Code plugin documentation: https://www.remotion.dev/docs/ai/claude-code-plugin
-4. Claude plans/pricing: https://claude.com/pricing
+Research starting points for editorial fact-check:
+- Mossad official site: https://www.mossad.gov.il/en/about
+- Mossad official history: https://www.mossad.gov.il/en/history
+- ZDF Studios, The History of Mossad: https://www.zdf-studios.com/en/program-catalog/international/unscripted/history-biographies/history-mossad
 
-Verify facts and add citations in the final video script before publishing.
+The narration is a broad introductory overview. Verify dates and claims against authoritative sources before public release.
